@@ -16,7 +16,7 @@ githubApp.config(["$routeProvider", function($routeProvider){
         .otherwise({ redirectTo: '/' });
 }]),
   
-angular.module('Config', []).constant('Config',
+angular.module('Config', []).constant('Config', 
     {
         searchTerm: 'reposearch',
         searchCategories: [
