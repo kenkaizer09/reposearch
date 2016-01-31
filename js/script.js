@@ -2,7 +2,7 @@
 
 var githubApp = angular.module('githubApp', [
         'ngRoute',
-        'ngResource',
+        'ngResource', 
         'MainCtrl',
         'Utils',
         'Config'
